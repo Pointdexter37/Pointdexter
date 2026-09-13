@@ -55,8 +55,24 @@ export default function Home() {
       <main className="page-wrapper">
         <HeroSection />
 
+        {/* Experience Section */}
+        <section className="experience-section fade-in-up fade-in-up-delay-7">
+          <h2 className="section-heading">Experience</h2>
+          <div className="experience-list">
+            <article className="experience-item">
+              <div className="experience-header">
+                <div>
+                  <h3 className="experience-role">Software Developer</h3>
+                  <p className="experience-company">Ravionics Labs</p>
+                </div>
+                <span className="experience-date">Jun 2026 - Present</span>
+              </div>
+            </article>
+          </div>
+        </section>
+
         {/* Projects Section */}
-        <section className="projects-section fade-in-up fade-in-up-delay-7">
+        <section className="projects-section fade-in-up fade-in-up-delay-8">
           <h2 className="section-heading">Projects</h2>
           <div className="project-list">
             {projects.map((project, i) => (
@@ -66,7 +82,7 @@ export default function Home() {
         </section>
 
         {/* Writing Section */}
-        <section className="writing-section fade-in-up fade-in-up-delay-8">
+        <section className="writing-section fade-in-up fade-in-up-delay-9">
           <h2 className="section-heading">Writing</h2>
           <div className="writing-placeholder">
             <span className="writing-placeholder-text">soon_</span>

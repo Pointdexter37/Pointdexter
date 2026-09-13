@@ -154,6 +154,7 @@ ol, ul {
 .fade-in-up-delay-6 { animation-delay: 0.3s; opacity: 0; }
 .fade-in-up-delay-7 { animation-delay: 0.35s; opacity: 0; }
 .fade-in-up-delay-8 { animation-delay: 0.4s; opacity: 0; }
+.fade-in-up-delay-9 { animation-delay: 0.45s; opacity: 0; }
 
 /* ============================
    LAYOUT
@@ -436,6 +437,60 @@ ol, ul {
   text-transform: uppercase;
   color: var(--color-muted);
   margin-bottom: 1rem;
+}
+
+/* ============================
+   EXPERIENCE
+   ============================ */
+.experience-section {
+  margin-top: 3rem;
+}
+
+.experience-list {
+  border-top: 1px solid var(--color-divider);
+}
+
+.experience-item {
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.experience-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.experience-role {
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--color-fg);
+}
+
+.experience-company {
+  margin-top: 0.25rem;
+  font-size: 0.8125rem;
+  color: var(--color-muted);
+}
+
+.experience-date {
+  flex-shrink: 0;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-date-text);
+  text-align: right;
+}
+
+@media (max-width: 480px) {
+  .experience-header {
+    flex-direction: column;
+    gap: 0.375rem;
+  }
+
+  .experience-date {
+    text-align: left;
+  }
 }
 
 /* ============================
