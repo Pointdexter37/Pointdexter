@@ -93,6 +93,26 @@ export function QueueIcon() {
   );
 }
 
+export function TerminalIcon() {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="1.5"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      width="16"
+      height="16"
+    >
+      {/* Terminal prompt icon */}
+      <rect x="2" y="3" width="20" height="18" rx="2" />
+      <polyline points="8 10 12 14 8 18" />
+      <line x1="14" y1="18" x2="19" y2="18" />
+    </svg>
+  );
+}
+
 export function FeaturedIcon() {
   return (
     <svg

@@ -8,6 +8,7 @@ import {
   DatabaseIcon,
   ImageIcon,
   QueueIcon,
+  TerminalIcon,
 } from "@/components/ProjectIcons";
 
 export default function Home() {
@@ -47,6 +48,14 @@ export default function Home() {
       tags: ["typescript"],
       href: "https://github.com/Pointdexter37/BackgroundQueue",
     },
+    {
+      icon: <TerminalIcon />,
+      name: "Kin",
+      description:
+        "A terminal-first snippet manager: save commands in SQLite, search them with fzf, substitute placeholders, then execute the resulting command",
+      tags: ["shell"],
+      href: "https://github.com/Pointdexter37/Kin",
+    },
   ];
 
   return (
@@ -84,8 +93,16 @@ export default function Home() {
         {/* Writing Section */}
         <section className="writing-section fade-in-up fade-in-up-delay-9">
           <h2 className="section-heading">Writing</h2>
-          <div className="writing-placeholder">
-            <span className="writing-placeholder-text">soon_</span>
+          <div className="writing-list">
+            <a
+              className="writing-item"
+              href="https://medium.com/@manikurmi14/follow-the-pointer-stack-vs-heap-8b144bd3016e"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="writing-title">Follow the Pointer: Stack vs Heap</span>
+              <span className="writing-meta">Medium</span>
+            </a>
           </div>
         </section>
 
