@@ -68,10 +68,10 @@ export default function Home() {
         <section className="experience-section fade-in-up fade-in-up-delay-7">
           <h2 className="section-heading">Experience</h2>
           <div className="experience-list">
-            <article className="experience-item">
+            <article className="experience-item experience-item-animated">
               <div className="experience-header">
                 <div>
-                  <h3 className="experience-role">Software Developer</h3>
+                  <h3 className="experience-role">Software Developer Intern</h3>
                   <p className="experience-company">Ravionics Labs</p>
                 </div>
                 <span className="experience-date">Jun 2026 - Present</span>
