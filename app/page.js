@@ -6,7 +6,6 @@ import Footer from "@/components/Footer";
 import {
   AlgoIcon,
   DatabaseIcon,
-  ImageIcon,
   QueueIcon,
   TerminalIcon,
 } from "@/components/ProjectIcons";
@@ -31,14 +30,6 @@ export default function Home() {
       stars: 2,
       tags: ["go"],
       href: "https://github.com/Pointdexter37/Database-Backup-CLI",
-    },
-    {
-      icon: <ImageIcon />,
-      name: "PixelNest",
-      description:
-        "A wallpaper download website with a clean interface for browsing and saving high-quality wallpapers",
-      tags: ["go"],
-      href: "https://github.com/Pointdexter37/PixelNest",
     },
     {
       icon: <QueueIcon />,
